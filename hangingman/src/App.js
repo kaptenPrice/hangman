@@ -3,6 +3,10 @@ import './App.css';
 import hanger from './images/hanger.jpg';
 
 
+  let alphabet="abcdefghijklmnopqrstuvwxyzåäö";
+  let keyboard= alphabet.split("").map(element=>(<button>{element}</button>));
+
+
 function App() {
   return (
     <div className="container">
@@ -13,9 +17,9 @@ function App() {
     <img src={hanger} className="hanger"/>
     <h2>- - - - - -</h2>
     <p>**"Antal gissningar: 0"**</p>
-<button id="button">a</button>
-<button id="button">a</button>
-
+    <div className="buttonBox">
+    {keyboard}
+    </div>
 
        
    

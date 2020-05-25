@@ -5,7 +5,7 @@ body{
   font-family:'Coming Soon';
  /* background-repeat: no-repeat;*/
 /*background-size: cover;*/
-  border: 10px solid blue;
+  border: 1px solid blue;
 
 }
 .hanger{
@@ -14,21 +14,28 @@ body{
 
 #root{
   background-image: url("backgroundpic.jpg");
-  border: 10px solid red;
+  background-size: cover;
+  border: 3px solid red;
   background-size: cover;
   background-repeat: no-repeat;
 
 }
-#container{
-  margin-top: 20vh;
+.buttonBox{
+  border: 1px solid black;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
-#button{
+
+.buttonBox button{ 
+  border: 1px solid black;
+  font-size: 20px;
+  color: aliceblue;
+  margin: 1px;
   background-color: #ffc107;
-  box-shadow:0px 5px #ff9800;
-  border: none;
+  box-shadow:0px 2px #ff9800;
   border-radius: 20%;
-  height: 30px;
-  width: 30px;;
+
+  
 }
 
 
