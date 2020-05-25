@@ -14,6 +14,7 @@ function App() {
     <h2>- - - - - -</h2>
     <p>**"Antal gissningar: 0"**</p>
 <button id="button">a</button>
+<button id="button">a</button>
 
 
        
