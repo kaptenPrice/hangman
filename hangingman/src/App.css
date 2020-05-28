@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
 
+
 body{
   text-align: center;
   font-family:'Coming Soon';
- /* background-repeat: no-repeat;*/
-/*background-size: cover;*/
-  border: 1px solid blue;
-
 }
+
 .hanger{
   border: 20px solid white;
-
 }
 
 #root{
+ 
   background-image: url("backgroundpic.jpg");
-  border: 3px solid red;
+  background-size: 100% 100%;
+  border: 10px solid #ffc107;
   background-repeat: no-repeat;
 
 }
@@ -23,9 +22,11 @@ body{
   border: 1px solid black;
   margin-left: 30vw;
   margin-right: 30vw;
+  margin-bottom: 2vh;
 }
 
-.buttonBox button{ 
+.tangent{ 
+  
   border:none;
   font-size: 20px;
   color: aliceblue;
@@ -35,19 +36,14 @@ body{
   border-radius: 20%;
   
 }
-
-#pressed{
-  border:none;
-  font-size: 20px;
-  color: aliceblue;
-  margin: 1px;
-  background-color: #dddd;
+button:disabled{
+  background-color:#bdbdbd;
   box-shadow:0px 3px rgba(63, 63, 63, 0.521);
-  border-radius: 20%;
+  color:white;
+
 }
-#buttonClicked{
-  background-color: grey;
-}
+
+
 
 
 
