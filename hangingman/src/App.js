@@ -2,6 +2,12 @@ import React from 'react';
 import './App.css';
 import hanger from './images/hanger.jpg';
 import wordGenerator from './words';
+/**
+ * Hangman v.01
+ * @author Khazar Mehraban
+ * 2020-05-28
+ */
+
 
 let wordToGuess = "";
 let gussLeft=0;
