@@ -41,7 +41,7 @@ function App() {
       </h2>
       <p>Antal gissningar: {gussLeft}</p>
       <div className="buttonBox">{keyboardList}</div>
-      <button className="tangent" onClick={() => {reset(); dashBuilder();}}> **Reset** </button>
+      <button className="resetBtn" onClick={() => {reset(); dashBuilder();}}> Återställ </button>
 
     </div>
   );
